@@ -4,14 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="style.css">
   <script src="https://kit.fontawesome.com/cea26e05b0.js" crossorigin="anonymous"></script>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="shortcut icon" type="image/x-icon" href="imgs/favicon.svg">
+  <link rel="stylesheet" href="style.css">
   <title>Sitius Tech</title>
   <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.4/dist/flowbite.min.css" />
 </head>
-<body>
+<body class="bg-blue-800 text-gray-50">
   <!-- Nav bar -->
   <nav class="border-gray-200 px-2 sm:px-4 py-2.5 bg-gray-900">
     <div class="container flex flex-wrap items-center justify-between mx-auto">
@@ -47,11 +47,44 @@
     </div>
   </nav>
   
-  <img src="https://i.pinimg.com/originals/2a/53/65/2a53651a35816f499270d8275fd5318f.gif" alt="Gif of coding" class="opGif">
+  <img src="https://i.pinimg.com/originals/2a/53/65/2a53651a35816f499270d8275fd5318f.gif" class="w-full">
   
-  <h1 class="text-center text-xl m-3">Need a website?</h1>
-  <h1 class="text-center text-xl m-3">Use Sitius Tech.</h1>
+  <h1 class="text-left text-xl m-3">Need a website?</h1>
+  <h1 class="text-right text-xl m-3">Use Sitius Tech.</h1>
   <h1 class="text-center text-2xl m-5">Features</h1>
+  <div class="grid grid-cols-2 grid-rows-2">
+  <div class="p-4 bg-blue-700 text-center border-2 border-sky-700">Cheap prizes</div>
+  <div class="p-4 bg-blue-700 text-center border-2 border-sky-700">Excellent service</div>
+  <div class="p-4 bg-blue-700 text-center border-2 border-sky-700">Long term warrenty</div>
+  <div class="p-4 bg-blue-700 text-center border-2 border-sky-700">Responsive and beautiful sites</div>
+</div>
+  
+  
+<!-- HTML for the card slider -->
+<div class="relative w-full overflow-hidden rounded-md shadow-lg">
+  <!-- Card container -->
+  <div class="relative flex overflow-x-scroll">
+    <!-- Cards go here -->
+    <div class="px-6 py-4 w-64 rounded-md shadow-lg mr-4">
+      <!-- Card content goes here -->
+      
+    </div>
+    <div class="px-6 py-4 w-64 rounded-md shadow-lg mr-4">
+      <!-- Card content goes here -->
+    </div>
+    <div class="px-6 py-4 w-64 rounded-md shadow-lg mr-4">
+      <!-- Card content goes here -->
+    </div>
+  </div>
+  <!-- Navigation buttons go here -->
+  <button class="absolute left-0 top-0 mt-2 ml-2 bg-white rounded-full shadow-md focus:outline-none focus:shadow-outline-blue">
+    <svg class="h-6 w-6 fill-current text-gray-500" viewBox="0 0 24 24"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>
+  </button>
+  <button class="absolute right-0 top-0 mt-2 mr-2 bg-white rounded-full shadow-md focus:outline-none focus:shadow-outline-blue">
+    <svg class="h-6 w-6 fill-current text-gray-500" viewBox="0 0 24 24"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+  </button>
+</div>
+
   
   
   

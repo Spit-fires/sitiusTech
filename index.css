@@ -1,7 +1,9 @@
 body {
   margin: 0;
-}
-.opGif {
   width: 100%;
   height: auto;
+}
+/* CSS to hide the slides */
+.hidden {
+  display: none;
 }
